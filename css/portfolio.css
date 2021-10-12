@@ -74,9 +74,13 @@ a:hover{
     
 }
 
-.about-div{
-    margin-left: -40px;
-    padding: 0px;
+
+
+@media(min-width: 768px){
+    .about-div{
+        width: 300px;
+        margin-left: -10px;
+    }
 }
 
 @media(max-width: 768px){
@@ -87,13 +91,15 @@ a:hover{
 }
 
 .hello{
+    
     font-size: calc(14px + (100 - 14) * ((100vw - 300px) / (1600 - 300)));
     color:#C9A227;
     font-family: 'Wire One', sans-serif;
 }
 
 .about{
-    width: 390px;
+    
+    width: 400px;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
